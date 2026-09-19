@@ -1,0 +1,41 @@
+
+HEALTHFIRST PIMS - Pharmacy Inventory Management System
+
+
+Student: Tshepi Theodorah Mnisi
+GitHub Repository: https://github.com/Tshepi26/healthfirst_pims
+
+DEFAULT LOGIN CREDENTIALS
+
+Admin Login:
+Username: admin
+Password: admin123
+
+Cashier Login:
+Username: cashier
+Password: cash123
+
+HOW TO RUN - MySQL Workbench
+
+1. Install Java JDK 17+ and MySQL Workbench
+2. Open MySQL Workbench and connect to Local instance
+3. Create Database: CREATE DATABASE healthfirst_db;
+4. Import Database: 
+   - Server > Data Import > Import from Self-Contained File
+   - Select file: database/healthfirst_db.sql
+   - Select Target Schema: healthfirst_db > Start Import
+5. Open NetBeans > Run Project (F6) OR double click dist/HealthFirst_PIMS.jar
+6. Login using credentials above
+
+FEATURES
+
+- Role-Based Access Control (Admin / Cashier)
+- Medicine Inventory Management
+- Supplier Management
+- POS Billing System
+- Sales, Expiry & Low Stock Reports
+
+EXECUTABLE
+
+- Runnable JAR: dist/HealthFirst_PIMS.jar
+- Executable EXE: dist/HealthFirst_PIMS.exe
